@@ -1,0 +1,11 @@
+[
+    {
+        "meetings": [
+            {
+                "id": 1,
+                "uuid": "showroom",
+                "creator": "mtnsmsk"
+            }
+        ]
+    }
+]
