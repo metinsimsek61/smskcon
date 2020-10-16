@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title><%= roomId %> - smskCon</title>
+</head>
+
+<body>
+    <center>
+        <h1>Wellcome The Meeting <%= roomId %></h1>
+        <h3>If you want to join you need to type your name!</h3>
+        <form action="/join" method="POST">
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username">
+            <input type="text" name="roomid" hidden id="roomid" value="<%= roomId %>">
+            <button type="submit">Join</button>
+        </form>
+    </center>
+</body>
+
+</html>
